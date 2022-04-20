@@ -1,0 +1,16 @@
+server:
+  port: 8081
+spring:
+  security:
+    user:
+      name: edinson-boada
+      password: Tzumenicoz$.1
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/edinson-boada/config-server.git
+          username: edinson-boada
+          password: Tzumenicoz$.1
+          search-paths: /
+          default-label: "main"
