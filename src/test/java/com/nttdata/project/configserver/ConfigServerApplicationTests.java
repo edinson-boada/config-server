@@ -1,4 +1,4 @@
-package com.nttdata.project01.configserver;
+package com.nttdata.project.configserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
